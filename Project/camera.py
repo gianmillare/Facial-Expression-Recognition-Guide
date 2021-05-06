@@ -12,7 +12,7 @@ class VideoCamera(object):
     
     # Point open CV to the video
     def __init__(self):
-        self.video = cv2.VideoCapture("C:\Users\gianm\OneDrive\Desktop\Facial-Expression-Recognition\Project\videos\facial_exp.mkv")
+        self.video = cv2.VideoCapture("videos/facial_exp.mkv")
     
     def __del__(self):
         self.video.release()

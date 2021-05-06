@@ -9,13 +9,15 @@ model = FacialExpressionModel("model.json", "model_weights.h5")
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
+    
+    # Point open CV to the video
     def __init__(self):
-        self.video = cv2.VideoCapture('/home/rhyme/Desktop/Project/videos/facial_exp.mkv')
-
+        self.video = cv2.VideoCapture("C:\Users\gianm\OneDrive\Desktop\Facial-Expression-Recognition\Project\videos\facial_exp.mkv")
+    
     def __del__(self):
         self.video.release()
 
-    # returns camera frames along with bounding boxes and predictions
+    # return the video frams as an image and convert to grayscale with other parameters
     def get_frame(self):
         _, fr = self.video.read()
         gray_fr = cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY)

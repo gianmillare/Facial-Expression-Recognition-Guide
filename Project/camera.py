@@ -12,7 +12,8 @@ class VideoCamera(object):
     
     # Point open CV to the video
     def __init__(self):
-        self.video = cv2.VideoCapture("videos/facial_exp.mkv")
+        # self.video = cv2.VideoCapture("videos/facial_exp.mkv")
+        self.video = cv2.VideoCapture("videos/presidential_debate.mp4")
     
     def __del__(self):
         self.video.release()

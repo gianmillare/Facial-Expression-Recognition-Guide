@@ -1,8 +1,8 @@
 # Dependencies
 from tensorflow.keras.models import model_from_json
 from tensorflow.python.keras.backend import set_session
-import numpy as numpy
-import tensorflow as tf 
+import numpy as np
+import tensorflow as tf
 
 # Set appropriate memory (optional)
 config = tf.compat.v1.ConfigProto()
@@ -20,7 +20,7 @@ class FacialExpressionModel(object):
     def __init__(self, model_json_file, model_weights_file):
 
         # load the model from the json model
-        with open(model_from_json, "r") as json_file:
+        with open(model_json_file, "r") as json_file:
             loaded_model_json = json_file.read()
             self.loaded_model = model_from_json(loaded_model_json)
 

@@ -8,21 +8,35 @@ Credit: [Coursera Course](https://www.coursera.org/learn/facial-expression-recog
 ![](images/intro.png)
 
 ### Goal: The model should predict facial expressions made throughout the video. (i.e. Happy, Angry, Surprised, Neutral, etc.)
+
 <hr>
+
 ![](images/happy.png)
+
 <hr>
+
 ![](images/angry.png)
+
 <hr>
+
 ![](images/contempt.png)
 
 <hr>
 
 ### The model was tested on the US Presidential Debate.
+
 <hr>
+
 ![](images/pres_1.png)
+
 <hr>
+
 ![](images/pres_2.png)
+
 <hr>
+
 ![](images/pres_3.png)
+
 <hr>
+
 ![](images/pres_4.png)

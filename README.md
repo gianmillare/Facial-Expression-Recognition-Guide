@@ -1,6 +1,9 @@
 # Facial-Expression-Recognition
 AI / ML project - build and train a convolutional neural network (CNN) in Keras to recognize facial expressions. Using the infamous Tensorflow-Keras library, I attempt to create a machine learning model that outputs the expression depicted on an image or video. 
 
+Checkout the "Applied" version of this project where I test out what I've learned on videos/images of my friends, family, and favorite tv show characters!
+[Facial Expression Recognition Applied](https://github.com/gianmillare/Facial-Expression-Recognition-Applied)
+
 Credit: [Coursera Course](https://www.coursera.org/learn/facial-expression-recognition-keras/home/welcome)
 <br>
 Jupyter Notebook with ML Program: [View Notebook](https://nbviewer.jupyter.org/github/gianmillare/Facial-Expression-Recognition/blob/main/Project/Facial_Expression_Recognition.ipynb)
